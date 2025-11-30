@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Amine Hfidhi - Professional Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Mohammed Amine Hfidhi</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-content">
+                <!-- Photo Section (Left) -->
+                <div class="photo-container">
+                    <div class="photo-wrapper">
+                        <div class="photo-frame">
+                            <img src="amine.jpg" alt="Mohammed Amine Hfidhi" class="profile-photo" id="profilePhoto">
+                            <div class="photo-glow"></div>
+                        </div>
+                        <div class="floating-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Text Section (Right) -->
+                <div class="about-text">
+                    <h1 class="main-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Mohammed Amine Hfidhi</span>
+                    </h1>
+                    <div class="animated-text-container">
+                        <span class="static-text">I'm a</span>
+                        <span class="animated-text" id="animatedText">
+                            <span class="word"></span>
+                        </span>
+                    </div>
+                    <div class="about-description">
+                        <p class="description">
+                            A developer with a deep love for creating innovative solutions and solving complex problems. My dedication to continuous learning and excellence drives me to stay at the forefront of technology and deliver high-quality work in every project I undertake.
+                        </p>
+                        <p class="description">
+                            With a strong foundation in programming and a keen eye for detail, I strive to build applications that are not only functional but also elegant and user-friendly. I believe in writing clean, maintainable code and following best practices to ensure scalability and performance.
+                        </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/hfidhi-mohammed-amine-b17b7831a/" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/iceberg011" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <a href="cv.pdf" download class="download-cv-btn">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="90"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="85"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="80"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="75"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="70"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="75"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="80"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="75"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/SDL_logo.svg/1200px-SDL_logo.svg.png" alt="SDL" class="skill-logo sdl-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="70"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.simpleicons.org/framer/0055FF" alt="Framer" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="45"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="70"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-circle">
+                        <svg class="progress-ring" width="140" height="140">
+                            <circle class="progress-ring-circle" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6"/>
+                            <circle class="progress-ring-progress" cx="70" cy="70" r="64" fill="transparent" stroke="currentColor" stroke-width="6" data-percent="75"/>
+                        </svg>
+                        <div class="skill-content">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="skill-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <div id="projectsGrid" class="projects-grid">
+                    <!-- Projects will be loaded here via JavaScript -->
+                </div>
+                <div id="projectsLoading" class="projects-loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading projects from GitHub...</p>
+                </div>
+                <div id="projectsError" class="projects-error" style="display: none;">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>Unable to load projects. Please check your GitHub username in script.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (234) 567-8900</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohammed Amine Hfidhi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
