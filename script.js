@@ -311,8 +311,8 @@ async function fetchGitHubProjects() {
             projectsError.style.display = 'block';
             projectsError.innerHTML = `
                 <i class="fas fa-globe"></i>
-                <p>No deployed projects found. Add a homepage URL to your GitHub repositories to showcase them here.</p>
-                <p style="margin-top: 10px; font-size: 14px; opacity: 0.7;">To add a homepage: Go to your repo → Settings → Scroll to "GitHub Pages" or add it in the repository description.</p>
+                <p>No deployed projects found.Coming soon.</p>
+                
             `;
             return;
         }
@@ -405,4 +405,5 @@ function createProjectCard(repo) {
 document.addEventListener('DOMContentLoaded', () => {
     fetchGitHubProjects();
 });
+
 
